@@ -4,80 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Blog Website</title> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-
+    <script href="script.js"></script>
+    <title>Document</title>
 </head>
 <body>
+    <div>
+    <header class="header">
+        <a href="#" class="logo"><span>b</span>logger</a>
 
+        <nav class="navbar">
+            <a href="#banner">banner</a>
+            <a href="#posts">my posts</a>
+            <a href="#contact">contact me</a>
+        </nav>
 
-
-<header class="header">
-
-    <a href="#" class="logo"><span>b</span>logger</a>
-
-    <nav class="navbar">
-        <a href="#banner">banner</a>
-        <a href="#row">my posts</a>
-        <a href="#contact">contact me</a>
-    </nav>
-
-    <div class="icons">
-        <i class="fas fa-bars" id="menu-bars"></i>
-        
-    </div>
-
-</header>
-
-
-<section class="banner" id="banner">
-
-    <div class="content">
-        <h3>explore the nature</h3>
-        <a href="#" class="btn">my blogs</a>
-    </div>
-
-</section>
-
-
-<div class="row" id="row"></div>
-
-<section class="contact" id="contact">
-
-    <form action="">
-        <h3>contact me</h3>
-        <div class="inputBox">
-            <input type="text" placeholder="name">
-            <input type="email" placeholder="email">
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icons"></i>
         </div>
-        <div class="inputBox">
-            <input type="number" placeholder="number">
-            <input type="text" placeholder="subject">
-        </div>
-        <textarea name="" placeholder="message" id="" cols="30" rows="10"></textarea>
-        <input type="submit" value="send message" class="btn">
-    </form>
 
-</section>
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="search here..." id="" class="search-box">
+            <label for="search-box" class ="fas fa-search"></label>
+        </form>
+    </header>
+</div>
 
 
 
-<section class="footer">
-
-    <div class="follow">
-        <a href="#" class="fab fa-facebook-f"></a>
-        <a href="#" class="fab fa-twitter"></a>
-        <a href="#" class="fab fa-instagram"></a>
-        <a href="#" class="fab fa-linkedin"></a>
-    </div>
-
-    <div class="credit">created by <span>mr. web designer</span> | all rights reserved</div>
-
-</section>
-
-
-<script src="script.js"></script>
-    
 </body>
 </html>
