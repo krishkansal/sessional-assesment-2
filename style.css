@@ -131,7 +131,7 @@ html{
 
 
 .contact{
-    background:url(../images/contact-bg.jpg) no-repeat;
+    background:url(images/contact-bg.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
