@@ -65,5 +65,5 @@ console.log(textvalue4);
 
 const textvalue5=document.querySelector('.inpt5').value
 console.log(textvalue5);
-})
+});
 
