@@ -15,6 +15,7 @@ xhr.onreadystatechange = ()=>{
 }
 xhr.send()
 
+
 function addCard(object){
     const col = document.createElement('div')
     col.setAttribute('class','column')
@@ -34,15 +35,3 @@ function addCard(object){
     return col
 
 }
-
-
-let menu = document.querySelector('#menu-bars');
-let navbar = document.querySelector('.navbar');
-
-menu.onclick = () =>{
-  menu.classList.toggle('fa-times');
-  navbar.classList.toggle('active');
-  
-}
-
-
